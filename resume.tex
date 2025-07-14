@@ -1,0 +1,227 @@
+%-------------------------
+% Resume in Latex (Optimized according to Resume Checklist)
+% Author : Jake Gutierrez -> Anish Sahoo
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+% Arial (uncomment both lines below)
+% \renewcommand{\rmdefault}{phv}
+% \renewcommand{\sfdefault}{phv}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubheadingSmall}[2]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+    \end{tabular*}\vspace{-9pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+\begin{center}
+    % \textbf{\Huge \scshape Anish Sahoo} \\ \vspace{1pt}
+    \textbf{\Huge Arka Sahoo} \\ \vspace{1pt}
+    \small 402-206-3000
+    $|$
+    % \href{mailto:sahoo.an@northeastern.edu}{\underline{sahoo.an@northeastern.edu}} $|$
+    \href{mailto:anishsahoo2005@gmail.com}{\underline{arkasahoo2005@gmail.com}}
+    $|$
+    \href{https://linkedin.com/in/anish-sahoo}{\underline{linkedin.com/in/arka-sahoo}} $|$
+    \href{https://github.com/anish-sahoo}{\underline{github.com/arka-sahoo}} \vspace{1pt} \\
+    US Citizen $|$ Open to relocation anywhere in the United States
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Nebraska at Omaha}{September 2023 -- Present}
+      {Bachelor of Science in Computer Science, Minor in Management Information Systems}{Omaha, NE}
+    \resumeItemListStart
+        \resumeItem{Concentration: Software Engineering $|$ Expected Graduation: December 2027}
+        \resumeItem{Relevant Courses: CS 1, CS 2, Intro to Information Systems, Database Management Systems, Modern Mainframe and COBOL, C Programming, Data Structures, Discrete Mathematics, Managing in a Digital World, IT Ethics, Applied Statistics, College Algebra, Applied Algebra, Trigonometry, Calculus 1, Public Speaking, Business Communications}
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+   \textbf{Languages}{: Java, Python, COBOL, SQL, JavaScript, HTML/CSS} \\  
+   \textbf{Technologies}{: Spring Boot, JUnit 5, React.js, Tailwind CSS} \\  
+   \textbf{Developer Tools}{: Git, GitHub, IntelliJ IDEA, VS Code, Eclipse IDE, OpenCobolIDE} \\
+  }}
+\end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+  \resumeSubheading
+  {Fiserv Inc.}{June 2025 -- August 2025}
+  {Software Engineer Intern}{Omaha, NE}
+  \resumeItemListStart
+    \resumeItem{Contributed to redevelopment of the legacy DDA Client View portal backend using Java and Spring Boot, collaborating with a team of 8 interns in an Agile environment}
+    \resumeItem{Built backend components (data models, REST controllers) to support features like client document viewing}
+    \resumeItem{Assisted in testing and maintenance of production COBOL systems responsible for credit card transaction processing for major U.S. banks}
+    \resumeItem{Gained cross-functional experience working on both modern Spring Boot applications and high-reliability COBOL systems used in large-scale financial operations}
+  \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+  %-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+
+  \resumeProjectHeading
+      % {\href{https://arkasahoo.com}{\textbf{Personal Website}} $|$
+      {\textbf{Personal Website} $|$ \emph{React.js, HTML, Tailwind CSS, JavaScript}}{July 2025}
+      \resumeItemListStart
+        \resumeItem{Developed a responsive and accessible personal website using React.js and Tailwind CSS, showcasing portfolio and professional information}
+        \resumeItem{Implemented dynamic components and smooth navigation to enhance user experience and engagement}
+        \resumeItem{Optimized website performance through code splitting and efficient asset management}
+        % \resumeItem{Deployed the site on Cloudflare Pages, ensuring fast global delivery and continuous integration with GitHub.}
+      \resumeItemListEnd
+
+  \resumeProjectHeading
+  % {\href{https://github.com/arka-sahoo}
+    {\textbf{Shipping Data Analytics} $|$ \emph{COBOL}}{April 2025}
+    \resumeItemListStart
+        \resumeItem{Engineered a COBOL program to process shipping data and generate summary reports as flat files}
+        \resumeItem{Designed record layouts for input and output files, structuring data for efficient read/write operations}
+        \resumeItem{Delivered destination-wise annual summaries of package counts and total revenue in a formatted report}
+        \resumeItem{Implemented logic to parse shipping records and transform raw data into actionable insights}
+    \resumeItemListEnd
+
+  \resumeProjectHeading
+  % {\href{https://github.com/arka-sahoo}
+    {\textbf{Date Wizard} $|$ \emph{Java Spring Boot, JUnit 5}}{January 2025}
+    \resumeItemListStart
+        \resumeItem{Engineered a Spring Boot REST API for date/time validation, format conversion, and Julian date computation}
+        \resumeItem{Designed modular endpoints for leap year checks, day-of-week calculation, and flexible date comparisons}
+        \resumeItem{Developed comprehensive unit and integration tests using JUnit5, ensuring accuracy across formats and time zones}
+        \resumeItem{Delivered a modular architecture with clean separation between controllers, services, and utilities}
+    \resumeItemListEnd
+
+  \resumeProjectHeading
+    {\textbf{Prepare} $|$ \emph{JavaScript, Code.org App Lab}}{April 2024}
+    \resumeItemListStart
+        \resumeItem{Engineered a mental wellness app in JavaScript using Code.org App Lab, enabling users to receive personalized emotional support through an interactive, input-driven interface}
+        \resumeItem{Designed features for stress-reduction tips, motivational content, and task-specific resources based on user input}
+        \resumeItem{Led mental health-focused content development to deliver real-time, tailored wellness resources}
+        \resumeItem{Collaborated in a 4-person team to create an accessible, user-centric tool for emotional preparedness}
+    \resumeItemListEnd
+ 
+\resumeSubHeadingListEnd
+
+% -----------INTERESTS----------------
+\section{Additional Information}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+  \textbf{Certifications}{: Work Smarter with Microsoft Excel, Work Smarter with Microsoft PowerPoint} \\
+   \textbf{Interests}{: Chess, Cooking, Traveling, Hiking, Badminton, Photography}
+  }}
+\end{itemize}
+
+%-------------------------------------------
+\end{document}
